@@ -1,0 +1,17 @@
+# Артефакты сборки
+build/
+dist/
+*.egg-info/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Виртуальные окружения
+venv/
+.env
+
+# Настройки IDE
+.vscode/
+.idea/

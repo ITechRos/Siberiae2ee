@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "siberiae2ee"
+version = "0.1.2"
+description = "E2EE-библиотека на российских криптостандартах (ГОСТ)."
+authors = [{name = "Nigina"}]
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["e2ee", "encryption", "gost", "kuznechik", "streebog", "cryptography", "russia"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = []   # Чистый Python, зависимостей нет
+
+[project.urls]
+Homepage = "https://github.com/ITechRos/siberiae2ee"
+Repository = "https://github.com/ITechRos/siberiae2ee"
